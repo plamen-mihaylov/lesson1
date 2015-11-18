@@ -1,0 +1,229 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    background: transparent url(../img/bg.jpg) 0 0 repeat;
+}
+
+#main-wrapper {
+    width: 900px;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 70px;
+    text-align: center;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-shadow: 3px 2px 1px #000000;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+    }
+
+.nav {
+    position: relative;
+    border-bottom: 3px double #000;
+}
+
+.adv {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 18%;
+    height: auto;
+    line-height: 1.2em;
+    font-size: 10px;
+    padding: 5px;
+    border: 3px double #000;
+}
+
+.nav .adv span {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.aditional-info {
+    padding: 5px 15px;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 16px;
+    color: #000;
+    border-bottom: 3px double #000;
+    text-align: center;
+}
+
+.left-ele {
+    float: left;
+}
+
+.right-ele {
+    float: right;
+}
+
+#main {
+    position: relative;
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+}
+
+p#Headline {
+    margin: 15px auto;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 4.2em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 0.2em;
+}
+
+#block1 {
+    float: left;
+}
+
+table {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 12px;
+    color: #000;
+    text-align: justify;
+}
+
+    
+#main #block1 th {
+    width: 150px;
+    padding: 0 15px;
+    vertical-align: top;
+
+}
+
+#main #block1 th span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#main #block1 .column2 {
+    border-style: solid;
+    border-width: 0px 2px;
+    border-color: #484848;
+}
+
+
+
+img {
+    float: right;
+    width: 38%;
+    height: auto;
+}
