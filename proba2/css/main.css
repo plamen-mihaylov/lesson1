@@ -218,15 +218,11 @@ p {
     float: left;
 }
 
-.block1 .column span {
+.block1 span {
     font-weight: bold;
     font-size: 18px;
 }
 
-.block1 .column2 span {
-    font-weight: bold;
-    font-size: 18px;
-}
 
 /*table {
     font-family: "Times New Roman", Georgia, Serif;
