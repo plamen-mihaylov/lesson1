@@ -113,11 +113,11 @@ body {
 #main-wrapper {
     width: 900px;
     margin: 0 auto;
-    
+
 }
 
 h1 {
-    font-family: 'Bree Serif', serif;
+    font-family: 'Gabriela', serif;
     font-size: 70px;
     text-align: center;
     line-height: 1em;
@@ -129,10 +129,10 @@ h1 {
 h2 {
     font-family: "Times New Roman", Georgia, Serif;
     font-size: 20px;
-    text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
     margin-bottom: 15px;
-    }
+}
 
 .nav {
     position: relative;
@@ -147,8 +147,8 @@ h2 {
     height: auto;
     line-height: 1.2em;
     font-size: 10px;
-    padding: 5px;
     border: 3px double #000;
+    padding: 5px;
 }
 
 .nav .adv span {
@@ -157,12 +157,12 @@ h2 {
 }
 
 .aditional-info {
-    padding: 5px 15px;
     font-family: "Times New Roman", Georgia, Serif;
     font-size: 16px;
     color: #000;
     border-bottom: 3px double #000;
     text-align: center;
+    padding: 5px 15px;
 }
 
 .left-ele {
@@ -180,17 +180,17 @@ h2 {
     margin: 0 auto;
 }
 
-p#Headline {
-    margin: 15px auto;
+p {
     font-family: "Times New Roman", Georgia, Serif;
     font-size: 4.2em;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
     word-spacing: 0.2em;
+    margin: 15px auto;
 }
 
-#block1 {
+.block1 {
     float: left;
 }
 
@@ -201,20 +201,20 @@ table {
     text-align: justify;
 }
 
-    
-#main #block1 th {
+
+.block1 th {
     width: 150px;
-    padding: 0 15px;
     vertical-align: top;
+    padding: 0 15px;
 
 }
 
-#main #block1 th span {
+.block1 th span {
     font-weight: bold;
     font-size: 18px;
 }
 
-#main #block1 .column2 {
+.column2 {
     border-style: solid;
     border-width: 0px 2px;
     border-color: #484848;
@@ -223,7 +223,6 @@ table {
 
 
 img {
-    float: right;
     width: 38%;
     height: auto;
 }
